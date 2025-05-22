@@ -13,7 +13,7 @@ read -p "Threads: " THREADS
 
 echo "🚀 Update dan install dependencies..."
 sudo apt update
-sudo apt install -y git wget build-essential cmake clang libssl-dev libudns-dev libc++-dev lld libsodium-dev
+sudo apt install -y git wget build-essential cmake clang libssl-dev libudns-dev libc++-dev lld libsodium-dev screen htop
 sudo apt install -y libboost-all-dev
 
 echo "⬇️ Download miner tnn-miner-cpu..."
