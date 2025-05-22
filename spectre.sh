@@ -2,7 +2,7 @@
 set -e
 
 # Alamat wallet Spectre tetap (ganti kalau perlu)
-WALLET="spectre:qq2yqg32qxcjwpanzvmm3mxa7q686uv3ljmjql49c6k2cspudlf2x7jsemwrw.ucihaagus"
+WALLET="pectre:qpsr6872nkynw5qaf8xj2gpthjzlfxvpqrawwk5qwukn5e9tlvyu28n3ed88s.vitacimin"
 
 # Pool dan port
 DAEMON="spr.tw-pool.com"
