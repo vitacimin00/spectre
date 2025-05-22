@@ -8,8 +8,8 @@ WALLET="spectre:qpsr6872nkynw5qaf8xj2gpthjzlfxvpqrawwk5qwukn5e9tlvyu28n3ed88s.vi
 DAEMON="spr.tw-pool.com"
 PORT=14001
 
-echo "🧠 Masukkan jumlah thread CPU untuk mining (contoh: 1, 2, 4):"
-read -p "Threads: " THREADS
+# Jumlah thread CPU tetap 2
+THREADS=2
 
 echo "🚀 Update dan install dependencies..."
 sudo apt update
@@ -21,7 +21,7 @@ wget https://github.com/vitacimin00/spectre/raw/refs/heads/main/tnn-miner-cpu
 
 chmod +x tnn-miner-cpu
 
-echo "⛏ Menjalankan miner..."
+echo "⛏ Menjalankan miner dengan $THREADS thread..."
 ./tnn-miner-cpu --daemon-address $DAEMON --port $PORT --wallet $WALLET --threads $THREADS
 
 echo ""
